@@ -1,0 +1,16 @@
+{
+  "name": "sistema-atendimento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^4.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1",
+    "sqlite": "^4.1.1"
+  },
+  "devDependencies": {
+    "prisma": "^4.0.0"
+  }
+}
