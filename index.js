@@ -3,7 +3,7 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3000;
 
-const prisma = require('./prisma');
+const prisma = require('./prisma/prisma.js');
 
 const app = express();
 const server = require('http').createServer(app);
